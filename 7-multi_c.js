@@ -5,7 +5,7 @@ const x = Number(arg);
 
 if (!arg || isNaN(x)) {
   console.log('Missing number of occurrences');
-} else {
+} else if (x > 0) {
   let result = '';
   for (let i = 0; i < x; i++) {
     result += 'C is fun\n';
